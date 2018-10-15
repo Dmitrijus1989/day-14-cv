@@ -1,0 +1,108 @@
+.mainImgDiv {
+  padding:30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80vh;
+}
+.mainImg {
+  height: 220px;
+}
+header {
+  position: relative;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.mySurname {
+  color: #F8BB10;
+}
+.headerRow {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.headersFooter-col-sm {
+  padding-left: 0;
+  padding-right: 0;
+}
+.mainName-col-lg-8 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+  padding: 30px;
+}
+.borderDivTop {
+  height: 1px;
+  width: 100%;
+  background-color: gray;
+  margin-bottom: 42px;
+}
+.headersFooter {
+  padding-left: 30px;
+  padding-right: 30px;
+  position: absolute;
+  left: 15px;
+  bottom: 5%;
+  width: 100%;
+}
+.headerLinkUl {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  right: 5%;
+  bottom: -12px;
+}
+.headerLinkBtn {
+  margin-left: 6px;
+  height: 40px;
+  width: 40px;
+  box-sizing: border-box;
+  background-color: #ededed;
+  border-color: #ededed;
+}
+.mainName-content {
+  position: relative;
+}
+.fab {
+  font-size: 150%;
+  color: gray;
+}
+.headerLinkBtn:hover {
+  cursor: pointer;
+  background-color: white;
+}
+.headerLinkBtn:hover .fab{
+  color: #F8BB10;
+}
+/* ---------------------------header ends here------------------------------- */
+.left1, .left2, .left3 {
+  padding: 30px;
+  text-align: right;
+}
+.right1, .right2, .right3 {
+  padding: 30px;
+}
+.right2-col-nr {
+  margin: 0;
+  font-size: 20px;
+  margin-right: 10px;
+  color: #F8BB10;
+  font-weight: 600;
+}
+.right2-col {
+  display: flex;
+  align-items: flex-start;
+}
+.progressBar {
+  width: 100%;
+  height: 8px;
+}
+.skillsh5 {
+  margin: 0;
+}
+.right3-col {
+  height: 70px;
+}
