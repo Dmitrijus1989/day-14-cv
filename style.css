@@ -6,6 +6,7 @@
   height: 80vh;
 }
 .mainImg {
+  border-radius: 50%;
   height: 220px;
 }
 header {
@@ -78,11 +79,11 @@ align-items: center;
   color: #F8BB10;
 }
 /* ---------------------------header ends here------------------------------- */
-.left1, .left2, .left3 {
+.left1, .left2, .left3, .left4, .left5, .left6{
   padding: 30px;
   text-align: right;
 }
-.right1, .right2, .right3 {
+.right1, .right2, .right3, .right4, .right5, .right6 {
   padding: 30px;
 }
 .right2-col-nr {
@@ -105,4 +106,39 @@ align-items: center;
 }
 .right3-col {
   height: 70px;
+}
+.right4 {
+  padding-bottom: 0;
+}
+.right5 {
+  padding-top: 0;
+}
+
+.verticalLine {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  position: relative;
+  height: 200px;
+  width: 1px;
+  background-color: gray;
+}
+.educRow {
+  display: flex;
+  justify-content: space-between;
+}
+.educSummary {
+  padding-left: 20px;
+}
+.educCont {
+  flex: 0 0 66.333333%;
+  max-width: 66.333333%;
+}
+.smallBoxIss {
+  background-color: #F8BB10;
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  top: 6px;
+  border-radius: 50%;
 }
