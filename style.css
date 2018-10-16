@@ -3,7 +3,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 80vh;
+  height: 98vh;
 }
 .mainImg {
   border-radius: 50%;
@@ -11,7 +11,7 @@
 }
 header {
   position: relative;
-  height: 80vh;
+  height: 98vh;
   display: flex;
   align-items: center;
 }
@@ -32,7 +32,7 @@ align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 80vh;
+  height: 98vh;
   padding: 30px;
 }
 .borderDivTop {
@@ -79,11 +79,11 @@ align-items: center;
   color: #F8BB10;
 }
 /* ---------------------------header ends here------------------------------- */
-.left1, .left2, .left3, .left4, .left5, .left6{
+.left1, .left2, .left3, .left4, .left5, .left6, .left7{
   padding: 30px;
   text-align: right;
 }
-.right1, .right2, .right3, .right4, .right5, .right6 {
+.right1, .right2, .right3, .right4, .right5, .right6, .right7 {
   padding: 30px;
 }
 .right2-col-nr {
@@ -117,11 +117,10 @@ align-items: center;
 .verticalLine {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   position: relative;
   height: 200px;
   width: 1px;
-  background-color: gray;
+  background-color: #dbdbdb;
 }
 .educRow {
   display: flex;
@@ -141,4 +140,33 @@ align-items: center;
   position: absolute;
   top: 6px;
   border-radius: 50%;
+}
+.right6-col-sm-4 {
+  display: flex;
+}
+.right6Logo {
+  margin-right: 12px;
+}
+.right6-h6 {
+  color: #F8BB10;
+}
+.right6-col-sm-4:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+.right6-col-sm-4:hover .right6-h6{
+  color: #efd932;
+}
+.right6 a {
+  color: black;
+  text-decoration: none;
+}
+.right7-col-sm-6 {
+max-height: 240px;
+margin-bottom: 30px;
+}
+.right7-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
