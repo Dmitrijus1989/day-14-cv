@@ -195,24 +195,21 @@ display: flex;
   transition: all 0.6s linear;
 }
 /*----------------------------------------------------------------------------*/
-
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-
 .column {
   float: left;
   width: 25%;
 }
-
 /* The Modal (background) */
 .modal {
   display: none;
   position: fixed;
   z-index: 3;
-  padding-top: 100px;
+  padding: 0px;
   left: 0;
   top: 0;
   width: 100%;
@@ -220,18 +217,16 @@ display: flex;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Modal Content */
 .modal-content {
-  position: relative;
+  position: static;
   background-color: transparent;
   margin: auto;
   padding: 0;
-  width: 60%;
-  max-width: 1200px;
+  width: 64%;
+  max-width: 1600px;
   border: 0;
 }
-
 /* The Close Button */
 .close {
   color: white;
@@ -241,14 +236,12 @@ display: flex;
   font-size: 35px;
   font-weight: bold;
 }
-
 .close:hover,
 .close:focus {
   color: #999;
   text-decoration: none;
   cursor: pointer;
 }
-
 .mySlides {
   display: none;
 }
@@ -256,7 +249,6 @@ display: flex;
   position: relative;
   z-index: 3;
 }
-
 .cursor {
   cursor: pointer;
 }
@@ -266,32 +258,40 @@ display: flex;
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 25%;
   z-index: 3;
   width: auto;
-  padding: 16px;
+  padding: 25vh 30px;
   margin-top: -50px;
   color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 80px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
 }
-
-/* Position the "next button" to the right */
+.prev {
+  left: 0;
+}
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
 }
-
+.fas-arrows {
+  color: rgba(255, 255, 255, 0.5);
+}
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.next:hover .fas-arrows{
+  color: rgba(255, 255, 255, 0.9);
+}
+.prev:hover .fas-arrows{
+  color: rgba(255, 255, 255, 0.9);
+}
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
@@ -300,13 +300,10 @@ display: flex;
   position: absolute;
   top: 0;
 }
-
-
 .caption-container {
   text-align: center;
   color: white;
 }
-
 .demo {
   opacity: 0.6;
 }

@@ -67,12 +67,17 @@ bar6.animate(0.5);
 
 // open model
 function openModal() {
-  document.getElementById('myModal').style.display = "block";
+  document.getElementById('myModal').style.display = "flex";
 }
 
 function closeModal() {
   document.getElementById('myModal').style.display = "none";
 }
+
+// var modelDisplayStatus = false;
+// if (document.getElementById('myModal').style.display = ) {
+//
+// }
 
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -98,4 +103,13 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   captionText.innerHTML = slides[slideIndex-1].alt;
 }
+document.getElementById('myModal').addEventListener('click', function(e){
+  console.log(e);
+  if (e.target === document.getElementById('myModal')){
+    closeModal(); // Clicked outside the box
+  } else if (document.getElementById('mySlidesId').contains(e.target)) {
+    plusSlides(1); // Clicked in box
+  }
+});
+
 //open model

@@ -377,33 +377,22 @@
 <div id="myModal" class="modal">
   <span class="close cursor" onclick="closeModal()">&times;</span>
   <div class="modal-content">
+    <div id="mySlidesId" class="">
 
-    <div class="">
       <img class="mySlides" src="photos/photo-1.jpeg" alt="NewYork" style="width:100%">
-    </div>
 
-    <div class="">
       <img class="mySlides" src="photos/photo-2.jpeg" alt="NewYork" style="width:100%">
-    </div>
 
-    <div class="">
       <img class="mySlides" src="photos/photo-3.jpeg" alt="NewYork" style="width:100%">
-    </div>
 
-    <div class="">
       <img class="mySlides" src="photos/photo-4.jpeg" alt="NewYork" style="width:100%">
-    </div>
 
-    <div class="">
       <img class="mySlides" src="photos/photo-5.jpeg" alt="NewYork" style="width:100%">
-    </div>
 
-    <div class="">
       <img class="mySlides" src="photos/photo-6.jpeg" alt="NewYork" style="width:100%">
     </div>
-
-    <a class="prev" onclick="plusSlides(-1)">PREV</a>
-    <a class="next" onclick="plusSlides(1)">NEXT</a>
+    <a id="prev" class="prev" onclick="plusSlides(-1)"><i class="fas-arrows fas fa-arrow-left"></i></a>
+    <a class="next" onclick="plusSlides(1)"><i id="prevI" class="fas-arrows fas fa-arrow-right"></i></a>
 
     <div class="caption-container">
       <p id="caption"></p>
