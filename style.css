@@ -155,7 +155,6 @@ align-items: center;
 .educRow {
   position: relative;
   display: flex;
-  justify-content: space-between;
   margin-bottom: 18px;
 }
 .educSummary {
@@ -233,10 +232,10 @@ display: flex;
   display: table;
   clear: both;
 }
-.column {
+/* .column {
   float: left;
   width: 25%;
-}
+} */
 /* The Modal (background) */
 .modal {
   display: none;
