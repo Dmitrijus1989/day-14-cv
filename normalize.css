@@ -25,6 +25,9 @@
   .col-lg-4 {
     text-align: left;
   }
+  .next, .prev {
+    padding: 25vh 20px;
+  }
 }
 @media screen and (max-width: 582px) {
   .col-sm-4, .col-sm-7, .col-sm-8 {
@@ -45,5 +48,9 @@
   }
   .mainName-content {
     font-size: 69%;
+  }
+  .next, .prev {
+    padding: 25vh 15px;
+    font-size: 1.5em;
   }
 }
